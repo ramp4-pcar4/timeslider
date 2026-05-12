@@ -1,5 +1,5 @@
 <template>
-    <div ref="el" class="time-slider absolute w-full h-full left-0 flex flex-col items-center bg-white">
+    <div ref="el" class="time-slider shadow-tm absolute w-full h-full left-0 flex flex-col items-center bg-white">
         <button
             class="absolute play-button"
             @click="intervalID >= 0 ? endLoop() : startLoop()"
