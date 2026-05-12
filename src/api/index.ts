@@ -4,6 +4,8 @@ import { createApp, h } from 'vue';
 import VueTippy from 'vue-tippy';
 import { i18n } from '@/lang';
 
+//TODO: extend `FixtureInstance` from RAMP once it gets properly exported.
+
 export class TimeSliderFixture {
     timeSliderPanel: HTMLElement | undefined;
 
@@ -12,7 +14,6 @@ export class TimeSliderFixture {
     }
 
     added() {
-        console.log('AAAA');
         const iApi = (this as any).$iApi;
         let config = iApi.getConfig().fixtures?.timeslider;
         if (config) {

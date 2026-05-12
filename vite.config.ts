@@ -1,9 +1,9 @@
-import { defineConfig, mergeConfig } from "vite";
-import type { UserConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
-import { resolve } from "path";
+import { defineConfig, mergeConfig } from 'vite';
+import type { UserConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+import { resolve } from 'path';
 import ViteMinifyEsPlugin from './scripts/vite-minify-es-plugin';
-import dsv from "@rollup/plugin-dsv";
+import dsv from '@rollup/plugin-dsv';
 import pkg from './package.json';
 
 const distName = resolve(__dirname, process.env.DIST_NAME || 'dist');
@@ -15,32 +15,37 @@ const browserBuildDefines = {
 const baseConfig: UserConfig = {
     plugins: [vue(), dsv()],
     define: {
-        "process.env": process.env,
+        'process.env': process.env
     },
-    base: "./",
+    base: './',
     resolve: {
         alias: {
-            "@": resolve(__dirname, "src"),
-            vue: "vue/dist/vue.esm-bundler.js",
-        },
+            '@': resolve(__dirname, 'src'),
+            vue: 'vue/dist/vue.esm-bundler.js'
+        }
     },
     build: {
-        target: "esnext",
+        target: 'esnext',
         emptyOutDir: false,
         outDir: distName,
         sourcemap: false,
         lib: {
-            entry: resolve(__dirname, "src/main.ts"),
-            name: "timeslider",
-            cssFileName: "timeslider",
+            entry: resolve(__dirname, 'src/main.ts'),
+            name: 'timeslider',
+            cssFileName: 'timeslider'
         },
         rolldownOptions: {
-            external: ["vue", "ramp-pcar"],
-        },
+            external: ['vue', 'ramp-pcar'],
+            output: {
+                globals: {
+                    vue: 'Vue'
+                }
+            }
+        }
     },
     server: {
-        open: "/demo/index.html"
-    },
+        open: '/demo/index.html'
+    }
 };
 
 function inlineConfig() {
