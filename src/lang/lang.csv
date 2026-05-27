@@ -1,8 +1,10 @@
 key,enValue,enValid,frValue,frValid
 timeslider.expand,Expand,1,Développer,1
 timeslider.minimize,Minimize,1,Réduire,1
-timeslider.play,Play,1,Lire,0
-timeslider.pause,Pause,1,Pause,0
+timeslider.play,Play,1,Lire,1
+timeslider.pause,Pause,1,Pause,1
+timeslider.close,Close,1,Fermer,1
+appbarbutton.tooltip,Timeslider,1,Curseur temporel,1
 month.jan,January,1,Janvier,1
 month.feb,February,1,Février,1
 month.mar,March,1,Mars,1

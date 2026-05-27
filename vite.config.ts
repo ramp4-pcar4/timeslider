@@ -44,7 +44,7 @@ const baseConfig: UserConfig = {
         }
     },
     server: {
-        open: '/demo/index.html'
+        open: '/demos/index.html'
     }
 };
 
