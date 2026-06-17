@@ -1,0 +1,285 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "A",
+                "year": 2010
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.3871,
+                    43.6629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "B",
+                "year": 2011
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5673,
+                    45.5017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "C",
+                "year": 2012
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9289,
+                    46.8139
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "D",
+                "year": 2013
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.1402,
+                    45.2577
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "E",
+                "year": 2014
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.2613,
+                    44.6488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "F",
+                "year": 2015
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.3468,
+                    52.1579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "G",
+                "year": 2016
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0719,
+                    51.5400
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "H",
+                "year": 2017
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.4909,
+                    53.5461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "I",
+                "year": 2018
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.2965,
+                    49.2827
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "J",
+                "year": 2019
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.1207,
+                    49.2827
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "K",
+                "year": 2020
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.7674,
+                    50.6674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "L",
+                "year": 2021
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3045,
+                    53.7267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "M",
+                "year": 2022
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.7129,
+                    56.1304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "N",
+                "year": 2023
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.1382,
+                    49.8951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "O",
+                "year": 2024
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6298,
+                    43.7515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "P",
+                "year": 2025
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.2945,
+                    42.9849
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Q",
+                "year": 2010
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.7597,
+                    45.4215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "R",
+                "year": 2015
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.1611,
+                    56.7285
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "S",
+                "year": 2020
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.6081,
+                    50.4452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "T",
+                "year": 2025
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.6431,
+                    62.4432
+                ]
+            }
+        }
+    ]
+}
