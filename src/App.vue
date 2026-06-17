@@ -73,7 +73,7 @@
                     </svg>
                 </button>
                 <button
-                    class="mr-10"
+                    class="ml-6 mr-10"
                     @click="open = false"
                     :content="$t('timeslider.close')"
                     v-tippy="{
@@ -431,6 +431,10 @@ const createFormat = (formatter: TimeSliderFormatter | undefined): Formatter | u
     height: 110px;
     position: absolute;
     z-index: 5;
+
+    @media screen and (max-width: 700px) {
+        width: calc(100% - 144px);
+    }
 }
 .time-slider-container.minimized {
     height: 44px;
@@ -449,17 +453,21 @@ const createFormat = (formatter: TimeSliderFormatter | undefined): Formatter | u
     }
 
     // MEDIA QUERY
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 700px) {
         .noUi-value:nth-of-type(4n) {
             display: none;
         }
 
-        .range-display {
-            @apply m-0;
-        }
-
         .noUi-marker-large {
             height: 9px !important;
+        }
+
+        .time-slider-header {
+            display: flex;
+
+            .range-display {
+                @apply mx-auto;
+            }
         }
     }
 
