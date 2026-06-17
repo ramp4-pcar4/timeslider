@@ -27,5 +27,5 @@ jobs:
                         repo: context.repo.repo,
                         body: `Your demo site is ready.
 
-                      Demo: https://${PR_OWNER}.github.io/config-editor/${PR_HEAD_REF}/index-ca-en.html`
+                      Demo: https://${PR_OWNER}.github.io/timeslider/${PR_HEAD_REF}/demos/index.html`
                       })
